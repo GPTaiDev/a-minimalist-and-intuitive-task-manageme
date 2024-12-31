@@ -1,0 +1,1 @@
+function addTask() { const taskList = document.getElementById('taskList'); const newTask = document.getElementById('newTask').value; if(newTask) { const li = document.createElement('li'); li.textContent = newTask; taskList.appendChild(li); document.getElementById('newTask').value = ''; } }
